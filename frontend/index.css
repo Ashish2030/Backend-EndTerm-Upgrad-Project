@@ -1,0 +1,71 @@
+span
+{
+    margin-top: 20px;
+    margin-left: 12px;
+    color:black;
+    display:inline-block; 
+}
+#ashu
+{
+    border: 2px solid black;
+    width: 25%;
+    margin: auto;
+    height: 70vh;
+    background-color: #ccccff;
+}
+#p
+{
+    padding: 20px;
+    text-align: center;
+}
+.a
+{
+    text-align: right;
+}
+#p button
+{
+    width:42%;
+    height:30px;
+    background-color: #ffb76f;
+}
+hr
+{
+ border-color: black;
+ border: none;
+ height: 1px;
+ background: black;
+}
+p
+{
+    padding: 0px;
+}
+button:hover
+{
+    cursor: pointer;
+}
+.p
+{
+    padding: 6px;
+}
+#append
+{
+    display: none;
+
+}
+.l
+{
+    text-align: center;
+     padding: 0%;
+}
+#append td
+{
+    overflow: hidden;
+
+}
+.m
+{
+    text-align: center;
+    width: 100%;
+    border: none;
+    background-color:  #ccccff;
+}
