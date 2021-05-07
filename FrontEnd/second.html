@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>𝐁𝐚𝐜𝐤𝐞𝐧𝐝-𝐄𝐧𝐝𝐭𝐞𝐫𝐦-𝐔𝐩𝐠𝐫𝐚𝐝</title>
+  <link rel="stylesheet" href="second.css">
+
+</head>
+<main>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">𝐏𝐫𝐨𝐟𝐢𝐥𝐞</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="second.html">𝐔𝐬𝐞𝐫𝐬 𝐃𝐞𝐭𝐚𝐢𝐥𝐬</a></li>
+      </ul>
+
+      <input type="text" id="fname" name="" placeholder="Search" onkeyup="search()" style="height:48px;">
+    </div>
+  </nav>
+</main>
+
+<body onload="load()" style="background-color: #45B8AC;">
+
+  <br>
+  <br>
+  <br>
+
+  <center>
+    <div id="myModal3" class="modal3">
+      <div id="ashu1">
+        <span>𝐄𝐝𝐢𝐭 𝐏𝐫𝐨𝐟𝐢𝐥𝐞</span>
+        <hr>
+        <table id="main">
+          <tr style="display: none;">
+            <td class="a">Id:</td>
+            <td colspan="2"><input type="text" id="id" size="25" name="a"></td>
+          </tr>
+          <tr>
+            <td class="a">Name:</td>
+            <td colspan="2"><input type="text" id="a" size="25" name="a" required></td>
+          </tr>
+          <tr>
+            <td class="a">Age:</td>
+            <td colspan="2"><input type="text" id="age" size="25" name="age" required></td>
+          </tr>
+          <tr>
+            <td class="a">Address:</td>
+            <td colspan="2"><input type="text" id="address" size="25" name="address" required></td>
+          </tr>
+          <tr>
+            <td class="a">Mob No.</td>
+            <td><input type="text" name="b" id="b" size="25" required></td>
+          </tr>
+          <tr>
+            <td class="a">Email ID:</td>
+            <td><input type="text" name="c" id="c" size="25" required></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="p"><button onclick="enable()">Update</Button></td>
+          </tr>
+        </table>
+        <hr>
+
+
+      </div>
+    </div>
+    </div>
+    <div id="ashu">
+      <span>𝐔𝐬𝐞𝐫𝐬 𝐃𝐞𝐭𝐚𝐢𝐥𝐬</span>
+      <hr>
+      <table id="append">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Mob.No</th>
+          <th>Email_ID</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </table>
+    </div>
+  </center>
+  <script src="second.js"></script>
+</body>
+
+</html>
