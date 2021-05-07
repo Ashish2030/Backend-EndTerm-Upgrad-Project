@@ -3,13 +3,31 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.*;
+
 @Entity
 public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
+
+    @NotEmpty(message = "Address is required")
     private String name;
+
+    @NotEmpty(message = "Phone number is required")
+    @Pattern(regexp="^\\(?(\\d{3})\\)?[- ]?(\\d{3})[- ]?(\\d{4})$", message="Mobile number is invalid")
     private String number;
+
+    @NotEmpty(message = "Email is required")
+    @Email
+    private String email;
+
+    @Max(100)
+    @NotNull
+    private String age;
+
+    @NotEmpty(message = "Address is required")
+    private String address;
 
     public String getAge() {
         return age;
@@ -26,10 +44,8 @@ public class Users {
     public void setAddress(String address) {
         this.address = address;
     }
-
-    private String email;
-    private String age;
-    private String address;
+    
+    
     public Users() {
         super();
     }

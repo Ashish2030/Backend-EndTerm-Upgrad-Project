@@ -16,6 +16,10 @@ public class UserService
     {
         this.userRepository.save(post);
     }
+    public List<Users> search(String keyword)
+    {
+        return userRepository.findByNameIgnoreCaseContaining(keyword);
+    }
 
     public List<Users> getAllPost()
     {
