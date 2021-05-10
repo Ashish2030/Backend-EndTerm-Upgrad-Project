@@ -24,16 +24,16 @@ public class Users {
 
     @Max(100)
     @NotNull
-    private String age;
+    private Integer age;
 
     @NotEmpty(message = "Address is required")
     private String address;
 
-    public String getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 

@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\Ashish\Desktop\Backend-EndTerm-Upgrad\EndTerm-Upgrad-BackEnd\Todo_List_Rest_API\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
