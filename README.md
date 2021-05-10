@@ -1,6 +1,6 @@
 
  <h1 align="center">𝐁𝐚𝐜𝐤𝐞𝐧𝐝-𝐄𝐧𝐝𝐓𝐞𝐫𝐦-𝐔𝐩𝐠𝐫𝐚𝐝-𝐏𝐫𝐨𝐣𝐞𝐜𝐭</h1>
-<p align="center">:octocat:🌟ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴇɴᴅ ᴛᴇʀᴍ ꜱᴏʟᴜᴛɪᴏɴ ᴏꜰ ʙᴀᴄᴋᴇɴᴅ ʙʏ ᴜᴘɢʀᴀᴅ ᴡʜᴇʀᴇ  ʜᴀᴠᴇ ᴛᴏ ᴍᴀᴋᴇ ʟᴏɢɪɴ ꜱɪɢɴᴜᴘ ᴀɴᴅ ᴀʟʟ ᴅᴀᴛᴀ ᴘʀɪɴᴛɪɴɢ ᴘᴀɢᴇ ᴜꜱɪɴɢ ʀᴇꜱᴛᴀᴘɪ💻🎯🚀<p><br>
+<p align="center">:octocat:🌟ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴇɴᴅ ᴛᴇʀᴍ ꜱᴏʟᴜᴛɪᴏɴ ᴏꜰ ʙᴀᴄᴋᴇɴᴅ(ʙᴀᴄᴋᴇɴᴅ-ᴘᴀʀᴛ) ʙʏ ᴜᴘɢʀᴀᴅ ᴡʜᴇʀᴇ  ʜᴀᴠᴇ ᴛᴏ ᴍᴀᴋᴇ ʟᴏɢɪɴ ꜱɪɢɴᴜᴘ ᴀɴᴅ ᴀʟʟ ᴅᴀᴛᴀ ᴘʀɪɴᴛɪɴɢ ᴘᴀɢᴇ ᴜꜱɪɴɢ ʀᴇꜱᴛᴀᴘɪ💻🎯🚀<p><br>
 <a href="https://github.com/ashish2030/EndTerm-Upgrad-BackEnd/fork" target="blank">
 <p align="center">
    <img src="https://img.shields.io/github/forks/ashish2030/Backend-EndTerm-Upgrad-Project?style=flat-square" alt="EndTerm-Upgrad-BackEnd forks"/>
@@ -20,7 +20,7 @@
 
   https://user-images.githubusercontent.com/61516051/117518288-cb08dc00-afbc-11eb-9278-7dd5a76aac68.mp4
 <p align="center">
-    <a href="https://ashish2030.github.io/Backend-EndTerm-Upgrad-Project/" target="blank">View Demo</a>
+    <a href="https://upgrad-endterm-project.herokuapp.com/" target="blank">View Demo</a>
     ·
     <a href="https://github.com/ashish2030/Backend-EndTerm-Upgrad-Project/issues/new/choose">Report Bug</a>
     ·
